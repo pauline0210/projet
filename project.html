@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>24 h vélo</title>
+    <script type = "text/javascript" src="js/project.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/project.css">
+</head>
+<body>
+<h1>Les 24h vélos 2020 </h1>
+<h2>Cette année nous vous proposons notre nouvelle carte ! </h2>
+<table>
+    <caption>
+        <span>Quelle boisson(s) voulez vous ?</span>
+    </caption>
+    <thead>
+    <tr>
+        <th class ="Degré">Degré</th>
+        <th class="Nom">Nom</th>
+        <th class="prix">Prix</th>
+        <th class="Ajt">Ajouter</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class ="Degré">5.2 %</td>
+        <td class="Nom">Jupiler</td>
+        <td class="prix">1</td>
+        <td class="Ajt"><input type=button value="ajt" onclick="ajouterBoisson()";></td>
+    </tr>
+    <tr>
+        <td class ="Degré">5.2 %</td>
+        <td class="Nom">Maes</td>
+        <td class="prix">1</td>
+        <td class="Ajt"><input type=button value="ajt" onclick="ajouterBoisson()";></td>
+    </tr>
+    <tr>
+        <td class ="Degré"> 5.2 %</td>
+        <td class="Nom">Stella artois </td>
+        <td class="prix">1 </td>
+        <td class="Ajt"><input type=button value="ajt" onclick="ajouterBoisson()";></td>
+    </tr>
+    <tr>
+        <td class ="Degré"> 8 %</td>
+        <td class="Nom">Kasteel red </td>
+        <td class="prix">2</td>
+        <td class="Ajt"><input type=button value="ajt" onclick="ajouterBoisson()";></td>
+    </tr>
+    <tr>
+        <td class ="Degré"> 9 %</td>
+        <td class="Nom">Chimay </td>
+        <td class="prix">2.5</td>
+        <td class="Ajt"><input type=button value="ajt" onclick="ajouterBoisson()";></td>
+    </tr>
+    </tbody>
+</table>
+<table>
+    <caption>
+        <span>Votre commande </span>
+    </caption>
+    <thead>
+    <tr>
+        <th class="Nom">Nom</th>
+        <th class="prix">Prix</th>
+        <th class="nombre">Nombre</th>
+    </tr>
+    </thead>
+    <tbody id="commande">
+
+    </tbody>
+</table>
+Votre montant :
+</body>
+</html>
